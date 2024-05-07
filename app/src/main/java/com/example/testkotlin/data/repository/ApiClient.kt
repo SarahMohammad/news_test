@@ -1,4 +1,4 @@
-package com.example.testkotlin.repository
+package com.example.testkotlin.data.repository
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

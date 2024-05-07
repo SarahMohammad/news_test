@@ -1,7 +1,7 @@
-package com.example.testkotlin.repository
+package com.example.testkotlin.data.repository
 
 
-import com.example.testkotlin.models.ArticlesReponse
+import com.example.testkotlin.domain.entity.ArticlesReponse
 import retrofit2.http.GET
 import retrofit2.Call
 import retrofit2.http.Query

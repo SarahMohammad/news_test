@@ -1,4 +1,4 @@
-package com.example.testkotlin.models
+package com.example.testkotlin.domain.entity
 
 data class Articles(
     val  author : String? = null,

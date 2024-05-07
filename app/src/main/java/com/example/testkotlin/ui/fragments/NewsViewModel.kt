@@ -1,11 +1,11 @@
-package com.example.testkotlin.viewmodel
+package com.example.testkotlin.ui.fragments
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 
 import androidx.lifecycle.ViewModel
-import com.example.testkotlin.models.ArticlesReponse
-import com.example.testkotlin.repository.ApiClient
+import com.example.testkotlin.domain.entity.ArticlesReponse
+import com.example.testkotlin.data.repository.ApiClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
