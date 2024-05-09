@@ -9,7 +9,11 @@
         android:id="@+id/details_fragment"
         android:name="com.example.testkotlin.ui.fragments.DetailsFragment"
         android:label="Fragment Details"
-        tools:layout="@layout/fragment_details" />
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="article"
+            app:argType="com.example.testkotlin.domain.entity.Articles" />
+    </fragment>
 
     <fragment
         android:id="@+id/list_fragment"

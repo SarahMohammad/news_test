@@ -27,6 +27,8 @@ class NewsListAdapter(
         holder.bind(currentItem)
         holder.itemView.setOnClickListener {
             navController.navigate(R.id.action_list_fragment_to_details_fragment)
+
+           navController.navigate( ListFragmentDirections.actionListFragmentToDetailsFragment(currentItem))
         }
     }
 
